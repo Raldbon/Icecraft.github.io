@@ -31,16 +31,16 @@
 	@media screen and (min-width:0px){
 		li{
 		padding-right: 50px;
-	    }
+		}
+		ul{
+		list-style : none;
+		}
 	}
 	@media screen and (min-width:600px){
 		li{
 		display: inline;
 		padding-right: 50px;
 	    }
-	}
-	ul{
-		list-style : disc;
 	}
 	.block1{
 		padding: 20px;
