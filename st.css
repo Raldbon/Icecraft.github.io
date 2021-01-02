@@ -13,7 +13,7 @@
 		font-family: 'title font';
 		src: url('font/DTM-Sans.otf'); /* IE9以上用 */
 		src: url('font/DTM-Sans.otf') format('embedded-opentype'), /* IE8以前用 */
-			url('font/DTM-Sans.otf') format('woff'), /* モダンブラウザ用 */
+			url('font/DTM-Sans.otf') format('truetype'), /* モダンブラウザ用 */
 			url('font/DTM-Sans.otf') format('truetype'); /* iOS, Android用 */
 		font-weight: normal; 
 		font-style: normal;
