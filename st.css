@@ -9,11 +9,20 @@
 			background-color: #252525;
 			background: url("./res/ice_top.jpeg");
 	}
+	@font-face{ 
+		font-family: 'title font';
+		src: url('font/DTM-Sans.otf'); /* IE9以上用 */
+		src: url('font/DTM-Sans.otf') format('embedded-opentype'), /* IE8以前用 */
+			url('font/DTM-Sans.otf') format('woff'), /* モダンブラウザ用 */
+			url('font/DTM-Sans.otf') format('truetype'); /* iOS, Android用 */
+		font-weight: normal; 
+		font-style: normal;
+	}
 	.title{
 		text-align: center;/*テキストの位置*/
 		font-size: 60px;/*文字サイズ*/
 		padding: 25px;
-		font-family: 'ヒラギノ角ゴ ProN W3';
+		font-family: 'title font';
 		background-size: cover;
 		background-position: center;
 	}
