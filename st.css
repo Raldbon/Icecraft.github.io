@@ -1,108 +1,111 @@
-	*{
+*{
+	margin: 0;
+	/*overflow:hidden;*/
+	}
+	body{
 		margin: 0;
-		/*overflow:hidden;*/
-		}
-		body{
-			margin: 0;
-			overflow-x: hidden;
-			font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
-			background-color: #252525;
-			background: url("./res/ice_top.jpeg");
+		overflow-x: hidden;
+		font-family: 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', sans-serif;
+		background-color: #252525;
+		background: url("./res/ice_top.jpeg");
+}
+@font-face{ 
+	font-family: 'title font';
+	src: url('font/Determination-Sans-Web-Regular.ttf.eot'); /* IE9以上用 */
+	src: url('font/Determination-Sans-Web-Regular.ttf.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
+		url('font/Determination-Sans-Web-Regular.ttf.woff') format('woff'), /* モダンブラウザ用 */
+		url('font/DTM-Sans.otf') format('truetype'); /* iOS, Android用 */
+	font-weight: normal; 
+	font-style: normal;
+}
+.title{
+	text-align: center;/*テキストの位置*/
+	font-size: 60px;/*文字サイズ*/
+	padding: 25px;
+	font-family: 'title font';
+	background-size: cover;
+	background-position: center;
+}
+.blocktitle{
+	font-size: 28px;
+	padding: 5px;
+}
+a{
+	text-decoration:none;
+	font-weight: bold;
+}
+a:link { color: skyblue; }
+a:visited { color: skyblue; }
+a:hover { color: white;}
+@media screen and (min-width:0px){
+	li{
+		padding-right: 50px;
 	}
-	@font-face{ 
-		font-family: 'title font';
-		src: url('font/Determination-Sans-Web-Regular.ttf.eot'); /* IE9以上用 */
-		src: url('font/Determination-Sans-Web-Regular.ttf.eot?#iefix') format('embedded-opentype'), /* IE8以前用 */
-			url('font/Determination-Sans-Web-Regular.ttf.woff') format('woff'), /* モダンブラウザ用 */
-			url('font/DTM-Sans.otf') format('truetype'); /* iOS, Android用 */
-		font-weight: normal; 
-		font-style: normal;
+	ul{
+		list-style : none;
 	}
-	.title{
-		text-align: center;/*テキストの位置*/
-		font-size: 60px;/*文字サイズ*/
-		padding: 25px;
-		font-family: 'title font';
-		background-size: cover;
-		background-position: center;
-	}
-	.blocktitle{
-		font-size: 28px;
-		padding: 5px;
-	}
-	a{
-		text-decoration:none;
-		font-weight: bold;
-	}
-	a:link { color: skyblue; }
-	a:visited { color: skyblue; }
-	a:hover { color: white;}
-	@media screen and (min-width:0px){
-		li{
-			padding-right: 50px;
-		}
-		ul{
-			list-style : none;
-		}
-		.dl{
-			border-radius: 5px;
-			color: #ffffff;
-			font-size: 20px;
-			padding: 15px;
-			background-color: skyblue;
-		}
-	}
-	@media screen and (min-width:600px){
-		li{
-			display: inline;
-			padding-right: 50px;
-	    	}
-		.dl{
-			border-radius: 5px;
-			color: #e6e6e6;
-			padding: 15px;
-			margin-left: 500px;
-			margin-right: 500px;
-			font-size: 20px;
-			background-color: skyblue;
-		}
-	}
-	.block1{
-		padding: 20px;
-		font-size: 30px;
-		text-align: center;
-		color: #e6e6e6;
-		background-color: #333333;
-	}
-	.block2{
-		padding: 20px;
+	.dl{
+		border-radius: 5px;
+		color: #ffffff;
 		font-size: 20px;
-		text-align: center;
-		color: white;
-		background-color: #333333;
+		padding: 15px;
+		background-color: skyblue;
 	}
-	.block3{
-		padding: 20px;
-		font-family: 'ＭＳ 明朝';
-		text-align: center;
-		color: #42daf5;
-		background-color: #333333;
+}
+@media screen and (min-width:600px){
+	li{
+		display: inline;
+		padding-right: 50px;
 	}
-	.block5{
-		font-size: large;
-		color: white;
-		text-align: center;
+	.dl{
+		border-radius: 5px;
+		color: #e6e6e6;
+		padding: 15px;
+		margin-left: 500px;
+		margin-right: 500px;
+		font-size: 20px;
+		background-color: skyblue;
 	}
-	.tp_dl:link{
-		
-	}
-	table,td,th{
-		border-width: 1px;
-		border-style: solid;
-		border-spacing: 0px;
-		border-collapse: collapse;
-	}
-	td{
-		width: 1500px;
-	}
-	/*cssのコメント*/
+}
+.block1{
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	color: #e6e6e6;
+	background-color: #333333;
+}
+.block2{
+	padding: 20px;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	background-color: #333333;
+}
+.block3{
+	padding: 20px;
+	font-family: 'ＭＳ 明朝';
+	text-align: center;
+	color: #42daf5;
+	background-color: #333333;
+}
+.block5{
+	font-size: large;
+	color: white;
+	text-align: center;
+}
+.tp_dl:link{
+
+}
+table,td,th{
+	border-width: 1px;
+	border-style: solid;
+	border-spacing: 0px;
+	border-collapse: collapse;
+}
+td{
+	width: 1500px;
+}
+.top-img{
+	width: 200px;
+	height: 130px;
+}
