@@ -46,8 +46,9 @@
 		}
 		.dl{
 			border-radius: 5px;
-			color: #000000;
-			font-size: 10px;
+			color: #ffffff;
+			font-size: 20px;
+			padding: 5px;
 			background-color: skyblue;
 		}
 	}
