@@ -30,7 +30,6 @@
 	a:hover { color: white;}
 	@media screen and (min-width:0px){
 		li{
-		list-style : none;
 		padding-right: 50px;
 	    }
 	}
@@ -39,6 +38,9 @@
 		display: inline;
 		padding-right: 50px;
 	    }
+	}
+	ul{
+		list-style : none;
 	}
 	.block1{
 		padding: 20px;
