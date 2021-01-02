@@ -52,7 +52,7 @@ a:hover { color: white;}
 		background-color: skyblue;
 	}
 	.top-img{
-		
+		width:100%;
 	}
 }
 @media screen and (min-width:600px){
@@ -70,7 +70,7 @@ a:hover { color: white;}
 		background-color: skyblue;
 	}
 	.top-img{
-		padding: 15px;
+		width:100%;
 	}
 }
 .block1{
