@@ -58,7 +58,16 @@
 		li{
 		display: inline;
 		padding-right: 50px;
-	    }
+	    	}
+		.dl{
+		border-radius: 5px;
+		color: #e6e6e6;
+		padding: 15px;
+		margin-left: 500px;
+		margin-right: 500px;
+		font-size: 20px;
+		background-color: skyblue;
+		}
 	}
 	.block1{
 		padding: 20px;
@@ -85,15 +94,6 @@
 		font-size: large;
 		color: white;
 		text-align: center;
-	}
-	.dl{
-		border-radius: 5px;
-		color: #e6e6e6;
-		padding: 15px;
-		margin-left: 500px;
-		margin-right: 500px;
-		font-size: 20px;
-		background-color: skyblue;
 	}
 	.tp_dl:link{
 		
