@@ -69,6 +69,12 @@ li{
 .tp_dl:link{
 	
 }
+.release-note{
+	text-align: left;
+}
+li{
+	list-style: none;
+}
 table,td,th{
 	border-width: 1px;
 	border-style: solid;
